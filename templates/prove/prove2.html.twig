@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProveController!{% endblock %}
+
+{% block body %}
+
+
+prove2
+    <br>
+    {# Comentarios #}
+    {% set var = 'HOLA MUNDO' %}
+    {{ var }}
+    <br>
+<a href="{{ path('prove') }}">
+    Volver al index
+</a>
+
+{% endblock %}
